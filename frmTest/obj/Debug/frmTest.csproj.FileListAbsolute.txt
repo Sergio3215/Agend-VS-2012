@@ -1,0 +1,17 @@
+c:\users\sergio\documents\visual studio 2012\Projects\frmTest\frmTest\bin\Debug\frmTest.exe
+c:\users\sergio\documents\visual studio 2012\Projects\frmTest\frmTest\bin\Debug\frmTest.pdb
+c:\users\sergio\documents\visual studio 2012\Projects\frmTest\frmTest\obj\Debug\frmTest.Properties.Resources.resources
+c:\users\sergio\documents\visual studio 2012\Projects\frmTest\frmTest\obj\Debug\frmTest.csproj.GenerateResource.Cache
+c:\users\sergio\documents\visual studio 2012\Projects\frmTest\frmTest\obj\Debug\frmTest.exe
+c:\users\sergio\documents\visual studio 2012\Projects\frmTest\frmTest\obj\Debug\frmTest.pdb
+C:\Users\Sergio\Documents\Visual Studio 2012\Projects\frmTest\frmTest\obj\Debug\frmTest.frmEspañol.resources
+C:\Users\Sergio\Documents\Visual Studio 2012\Projects\frmTest\frmTest\obj\Debug\frmTest.frmEnglish.resources
+C:\Users\Sergio\Documents\Visual Studio 2012\Projects\frmTest\frmTest\obj\Debug\frmTest.frmPrincipal.resources
+C:\Users\Sergio\Documents\Visual Studio 2012\Projects\frmTest\frmTest\bin\Debug\en\frmTest.resources.dll
+C:\Users\Sergio\Documents\Visual Studio 2012\Projects\frmTest\frmTest\obj\Debug\frmTest.frmEnglish.en.resources
+C:\Users\Sergio\Documents\Visual Studio 2012\Projects\frmTest\frmTest\obj\Debug\en\frmTest.resources.dll
+C:\Users\Sergio\Documents\Visual Studio 2012\Projects\frmTest\frmTest\bin\Debug\ja\frmTest.resources.dll
+C:\Users\Sergio\Documents\Visual Studio 2012\Projects\frmTest\frmTest\obj\Debug\frmTest.frmJapanese.resources
+C:\Users\Sergio\Documents\Visual Studio 2012\Projects\frmTest\frmTest\obj\Debug\frmTest.frmJapanese.en.resources
+C:\Users\Sergio\Documents\Visual Studio 2012\Projects\frmTest\frmTest\obj\Debug\frmTest.frmJapanese.ja.resources
+C:\Users\Sergio\Documents\Visual Studio 2012\Projects\frmTest\frmTest\obj\Debug\ja\frmTest.resources.dll

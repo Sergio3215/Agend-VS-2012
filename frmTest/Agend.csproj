@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{280E7DD3-E553-472F-8003-B571C68DA348}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Agend</RootNamespace>
+    <AssemblyName>Agend</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAgenda\JP\frmJapanese.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgenda\JP\frmJapanese.Designer.cs">
+      <DependentUpon>frmJapanese.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgenda\EN\frmEnglish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgenda\EN\frmEnglish.Designer.cs">
+      <DependentUpon>frmEnglish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgenda\ESP\frmEspañol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgenda\ESP\frmEspañol.Designer.cs">
+      <DependentUpon>frmEspañol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinancias\EN\frmFinanciasGastosEnglish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinancias\EN\frmFinanciasGastosEnglish.Designer.cs">
+      <DependentUpon>frmFinanciasGastosEnglish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinancias\EN\frmFinanciaGananciaEnglish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinancias\EN\frmFinanciaGananciaEnglish.Designer.cs">
+      <DependentUpon>frmFinanciaGananciaEnglish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinancias\ESP\frmFinanciaGanancia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinancias\ESP\frmFinanciaGanancia.Designer.cs">
+      <DependentUpon>frmFinanciaGanancia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinancias\ESP\frmFinanciasGastos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinancias\ESP\frmFinanciasGastos.Designer.cs">
+      <DependentUpon>frmFinanciasGastos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinancias\JP\frmFinanciaGananciaJapanese.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinancias\JP\frmFinanciaGananciaJapanese.Designer.cs">
+      <DependentUpon>frmFinanciaGananciaJapanese.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinancias\JP\frmFinanciasGastosJapanese.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinancias\JP\frmFinanciasGastosJapanese.Designer.cs">
+      <DependentUpon>frmFinanciasGastosJapanese.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAgenda\JP\frmJapanese.en.resx">
+      <DependentUpon>frmJapanese.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgenda\JP\frmJapanese.ja.resx">
+      <DependentUpon>frmJapanese.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgenda\JP\frmJapanese.resx">
+      <DependentUpon>frmJapanese.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgenda\EN\frmEnglish.en.resx">
+      <DependentUpon>frmEnglish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgenda\EN\frmEnglish.resx">
+      <DependentUpon>frmEnglish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgenda\ESP\frmEspañol.resx">
+      <DependentUpon>frmEspañol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinancias\EN\frmFinanciasGastosEnglish.resx">
+      <DependentUpon>frmFinanciasGastosEnglish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinancias\EN\frmFinanciaGananciaEnglish.resx">
+      <DependentUpon>frmFinanciaGananciaEnglish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinancias\ESP\frmFinanciaGanancia.resx">
+      <DependentUpon>frmFinanciaGanancia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinancias\ESP\frmFinanciasGastos.resx">
+      <DependentUpon>frmFinanciasGastos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinancias\JP\frmFinanciaGananciaJapanese.resx">
+      <DependentUpon>frmFinanciaGananciaJapanese.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinancias\JP\frmFinanciasGastosJapanese.resx">
+      <DependentUpon>frmFinanciasGastosJapanese.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
